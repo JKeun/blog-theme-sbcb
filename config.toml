@@ -4,7 +4,7 @@ canonifyurls = true
 paginate = 10
 theme = "startbootstrap-clean-blog"
 languageCode = "ko-kr"
-copyright = "Copyright(c)2016 JKEUN All rights reserved."
+copyright = "Copyright © 2016 by JKEUN All rights reserved."
 
 [author]
   name = "Jay"
