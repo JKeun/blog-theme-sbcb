@@ -17,14 +17,11 @@ copyright = "Code released under the Apache 2.0 license."
   Ganalytics = "XX-00000000-0"
 
 [[params.social]]
-  title = "twitter"
-  url = "https://twitter.com/humboldtux"
-[[params.social]]
   title = "github"
-  url = "https://github.com/humboldtux"
+  url = "https://github.com/jkeun"
 [[params.social]]
   title = "facebook"
-  url = "https://www.facebook.com/FACEBOOKHANDLE"
+  url = "https://www.facebook.com/jaekeun.park.7"
 
 [[menu.main]]
   name = "home"
