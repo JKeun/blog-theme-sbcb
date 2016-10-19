@@ -11,10 +11,12 @@ copyright = "Copyright © 2016 by JKEUN All rights reserved."
 
 [params]
   DateForm = "Fri, Oct 13, 2016"
-  Description = "Data, Learning"
+  Description = "Blog of Data Science, Machine learning, Deep learning, Tensorflow, Python, Web, Programming, 파이썬, 머신러닝, 데이터, 사이언스를 배우는 블로그 입니다."
+  Keywords = "Data, Science, Machine, Learning, Deep, Tensorflow, Python, Web, Data Scientist, 파이썬, 머신러닝, 빅데이터, 데이터사이언스, 데이터"
   Author = "Jay"
   email = "jkeun1224@gmail.com"
-  Ganalytics = "XX-00000000-0"
+  Ganalytics = "UA-85991641-1"
+  
 
 [[params.social]]
   title = "github"

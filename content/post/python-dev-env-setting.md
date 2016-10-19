@@ -4,13 +4,16 @@ title = "Python Development Environment Setting"
 image = "/img/about-bg.jpg"
 description = "Pyenv, Virtualenv, Autoenv"
 draft = false
+
 tags = [
-  "python",
-  "dev", "development",
-  "pyenv",
-  "virtualenv",
+  "python", 
+  "dev", 
+  "development", 
+  "pyenv", 
+  "virtualenv", 
   "autoenv"
 ]
+
 categories = [
   "Development",
 ]
