@@ -1,13 +1,22 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<!DOCTYPE html>   
+{{`<!--
+       _             __           
+      (_)___  ____  / /____  _____
+     / / __ \/ __ \/ __/ _ \/ ___/
+    / / / / / /_/ / /_/  __(__  ) 
+ _ / /_/ /_/\____/\__/\___/____/  
+/___/ D A T A , L E A R N I N G                        
 
+-->`|safeHTML}}
+<html lang="{{ .Site.LanguageCode }}">
+    
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ .Site.Params.Description }}" />
-    <meta name="keywords" content="{{ .Site.Params.Keywords }}" />
+    <meta name="keywords" content="{{if .Keywords}}{{range .Keywords}}{{ . }}, {{ end }} {{ else if isset .Site.Params "Keywords" }}{{ .Site.Params.Keywords }} {{ end }}" />
     <meta name="author" content="{{ .Site.Params.Author }}" />
 
     <title>{{ .Title }} -- {{ .Site.Title }}</title>

@@ -5,6 +5,15 @@ image = "/img/about-bg.jpg"
 description = "Pyenv, Virtualenv, Autoenv"
 draft = false
 
+keywords = [
+  "python", 
+  "dev", 
+  "development", 
+  "pyenv", 
+  "virtualenv", 
+  "autoenv"
+]
+
 tags = [
   "python", 
   "dev", 

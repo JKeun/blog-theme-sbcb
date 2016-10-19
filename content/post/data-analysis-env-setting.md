@@ -1,18 +1,28 @@
 +++
-categories = [
-  "Data Science"
-]
 date = "2016-10-14T10:11:07+09:00"
 title = "Data Analysis Environment Setting"
 image = "/img/about-bg.jpg"
 description = "pip install, 00.py, ipython_config.py, ipython_kernel_config.py"
 draft = true
+
+keywords = [
+  "data",
+  "data science",
+  "jupyter notebook",
+  "ipython",
+  "dev"
+]
+
 tags = [
   "data",
   "data science",
   "jupyter notebook",
   "ipython",
   "dev"
+]
+
+categories = [
+  "Data Science"
 ]
 
 +++
