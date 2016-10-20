@@ -8,7 +8,7 @@ description = "hello"
 +++
 
 # Jay
-Man who enjoys studying  Data Sciecne, Statistics and Web Development.
+Man who enjoys studying  Data Science, Statistics and Web Development.
 
 ---
 ## skills
@@ -53,7 +53,7 @@ Man who enjoys studying  Data Sciecne, Statistics and Web Development.
 
 ### 2. HanJin, Seoul, Korea (Aug. 2015 - Aug. 2015)
 - Internship
-- Managed warehouse & invnetory
+- Managed warehouse & inventory
 
 
 ### 3. Korean Airline, HongKong (Jan. 2015 - Feb. 2015)

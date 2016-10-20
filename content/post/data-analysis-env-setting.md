@@ -3,20 +3,31 @@ date = "2016-10-14T10:11:07+09:00"
 title = "Data Analysis Environment Setting"
 image = "/img/about-bg.jpg"
 description = "pip install, 00.py, ipython_config.py, ipython_kernel_config.py"
-draft = true
+draft = false
 
 keywords = [
   "data",
   "data science",
   "jupyter notebook",
   "ipython",
-  "dev"
+  "dev",
+  "데이터",
+  "분석",
+  "환경",
+  "파이썬",
+  "주피터",
+  "노트북",
+  "analysis",
+  "environment",
+  "pip",
+  "import",
+  "모듈"
 ]
 
 tags = [
   "data",
-  "data science",
-  "jupyter notebook",
+  "science",
+  "jupyter",
   "ipython",
   "dev"
 ]
@@ -41,11 +52,13 @@ $ pip install pandas
 $ pip install sklearn
 $ pip install matplotlib
 $ pip install seaborn
+$ pip install [ mongodb / bs4 / requests / ... ] 
 ```
 
-- statsmodels 은 `pip install statsmodel` 이 아닌 dev 버전 설치
-    - statsmodels 설치를 위해 patsy 패키지 설치
-    - 
+- **statsmodels** 은 `pip install statsmodel` 이 아닌 dev 버전 설치 ( 더 많은 기능 )
+    - `pip install --upgrade --no-deps statsmodels`
+    - 그 외 statsmodels 를 설치할때 뜨는 각종 모듈도 에러 문구 보면서 설치
+        - ex. `pip install patsy`
 
 ---
 ## ~/.ipython/ 세팅하기

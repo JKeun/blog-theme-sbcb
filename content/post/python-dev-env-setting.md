@@ -11,7 +11,10 @@ keywords = [
   "development", 
   "pyenv", 
   "virtualenv", 
-  "autoenv"
+  "autoenv",
+  "파이썬",
+  "개발",
+  "환경",
 ]
 
 tags = [
@@ -29,12 +32,11 @@ categories = [
 
 +++
 
-# 데이터 분석 개발 환경 ( python v2.7.11 )
-파이썬 개발환경 및 패키지 관리 자동화를 위한 세팅
+# 파이썬 개발 환경 세팅 ( python v2.7.11 )
+파이썬 개발환경 및 패키지 관리 자동화
 
 ---
 ## pyenv + virtualenv
-
 pyenv 는 파이썬 2.7, 3.11 을 자유롭게 오가며 사용할 수 있게 해준다.
 
 
@@ -74,6 +76,9 @@ eval "$(pyenv virtualenv-init -)"
 - `$ pip list > requirements.txt`
 - `$ pip install -r requirements.txt` : 다른 사용자가 설치할 경우
 
+---
+
+## autoenv
 **autoenv 설치 및 세팅**
 
 - `$ brew install autoenv`
@@ -95,3 +100,8 @@ pyenv activate [PROJECT_NAME]
 
 - 이후 해당 폴더에 들어올 때마다 파이썬환경 자동으로 켜짐
 - `$pyenv deactivate` : 해당 파이썬 환경 종료
+
+---
+### Reference
+- [https://dobest.io/how-to-set-python-dev-env/](https://dobest.io/how-to-set-python-dev-env/)
+- [http://guswnsxodlf.github.io/pyenv-virtualenv-autoenv](http://guswnsxodlf.github.io/pyenv-virtualenv-autoenv) 
