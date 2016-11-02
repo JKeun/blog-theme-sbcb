@@ -19,7 +19,7 @@
     <meta name="keywords" content="{{if .Keywords}}{{range .Keywords}}{{ . }}, {{ end }} {{ else if isset .Site.Params "Keywords" }}{{ .Site.Params.Keywords }} {{ end }}" />
     <meta name="author" content="{{ .Site.Params.Author }}" />
 
-    <title>{{ .Title }} -- {{ .Site.Title }}</title>
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
 
     {{ if .RSSlink }}
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
